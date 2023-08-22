@@ -1,19 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Validación de requisitos',
+    descripcionCurso:
+      'En este componente formativo se abordan los temas de técnicas de validación de requisitos (revisiones, prototipos y casos de prueba) y el tema de los requerimientos duraderos y volátiles.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
   },
   menuPrincipal: {
     menu: [
@@ -31,27 +22,36 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Validación de requerimientos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Revisiones de requerimientos',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Construcción de prototipos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Generación de casos de prueba',
+            hash: 't_1_3',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Requerimientos duraderos y volátiles',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Herramientas para la gestión de requisitos',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +102,108 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1. Validación de requerimientos',
+      referencia:
+        'Axelo 19. (7 de julio de 2019). Adobe Xd-Prototipado interactivo de aplicaciones y páginas web (sin programación).',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=AQjU9-zc4Hk',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1. Validación de requerimientos',
+      referencia:
+        'Fundación Educreatic. (2018, 19 abril). Crear prototipo pagina web en mockup balsamiq (caso de estudio Kiri).',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=VMzckBNgoNc',
+    },
+    {
+      tema: '1.2. Construcción de prototipos',
+      referencia:
+        'León, C. (12 de noviembre de 2018). Diseño de interfaz de usuario de app con MarvelApp.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=GG3ab1058Yw',
+    },
+    {
+      tema: '1.3. Generación de casos de prueba',
+      referencia: 'Nastaquias, R. (27 de mayo de 2019). Tutorial de Moqups.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=H4OZE1e1MW8',
+    },
+    {
+      tema: '3. Herramientas para la gestión de requisitos',
+      referencia:
+        'Overti. (08 de abril de 2021). Herramientas de gestión de requisitos.',
+      tipo: 'Página web',
+      link: 'https://www.overti.es/index.php',
+    },
+    {
+      tema: '3. Herramientas para la gestión de requisitos',
+      referencia:
+        'Barón, A. (08 de abril de 2021). Herramientas para apoyar ingeniería de requisitos.',
+      tipo: 'Presentación',
+      link:
+        'https://prezi.com/kuflo3saesne/herramientas-para-apoyar-ingenieria-de-requisitos/',
+    },
+    {
+      tema: '3. Herramientas para la gestión de requisitos',
+      referencia:
+        'IBM Rational RequisitePro Integration. (10 de septiembre de 2020). Integrate RequisitePro.',
+      tipo: 'Página web',
+      link:
+        'https://www.opshub.com/integrations/ibm-rational-requisitepro-integration/',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Prueba conceptual',
+      significado:
+        'Las pruebas de concepto ofrecen conclusiones para diseñar un producto o servicio mejor. Además, permiten evaluar el éxito de estas ideas de productos nuevos antes de su comercialización.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Stakeholders',
+      significado:
+        'Son todas aquellas personas interesadas en la construcción del software que de una u otra forma se relacionan con las actividades, se afecta por estas actividades o toma parte en las decisiones de la empresa o negocio sobre el cual se está haciendo el levantamiento de requerimientos.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Ballesteros, E., Tellez, F. R., y Medina, J. (2020). Software requirements: prototyping, legacy software, and document analysis. Ingeniería y Desarrollo, 37(2), 327–345.',
+      link: 'https://doi.org/10.14482/inde.37.2.1053',
+    },
+    {
+      referencia:
+        'Easterbrook, S, Lutz, R, et al. (1998). Experiences using lightweight formal methods for requirements modeling. IEE Trans. On Software Engineering, 24(1), 4-14. (ch 10).',
       link: '',
+    },
+    {
+      referencia:
+        'Pantaleo, G., y Rinaudo L. (2018). Ingeniería de Software. Alfaomega.',
+      link: '',
+    },
+    {
+      referencia:
+        'Penzenstadler, B. (s. f.). Requirements Engineering. CSU Long Beach.',
+      link: 'https://bit.ly/3rtBKXN ',
+    },
+    {
+      referencia:
+        'Porfirio, C. (s. f.). Técnicas de priorización: el desafío de conseguir un orden para las funcionalidades. atSistemas - Consultoría IT Blog.',
+      link: 'https://bit.ly/3cvumqz ',
+    },
+    {
+      referencia:
+        'Rivadeneira, M., S. G. (2014). Metodologías ágiles enfocadas al modelado de requerimientos. Informes Científicos Técnicos - UNPA, 5(1), 1–29.',
+      link: 'https://doi.org/10.22305/ict-unpa.v5i1.66',
+    },
+    {
+      referencia:
+        'Sommerville I. (2011). Ingeniería del software. Addison-Wesley.',
+      link: '',
+    },
+    {
+      referencia: 'Sevilla, J. (2021). Herramientas de gestión de requisitos. ',
+      link:
+        'http://www.overti.es/tecnologia/296-herramientas-de-gestion-de-requisitos',
     },
   ],
   creditos: [
@@ -143,7 +219,7 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable de Línea de Producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -151,10 +227,50 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Henry Eduardo Bastidas Paruma',
+          cargo: 'Experto temático',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de teleinformática y producción industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Jonathan Guerrero Astaiza',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de teleinformática y producción industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Zulema Yidney León Escobar',
+          cargo: 'Experta temática',
+          centro:
+            'Centro de teleinformática y producción industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Revisión metodológica y pedagógica',
+          centro: 'Centro de gestión industrial - Regional Bogotá',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Centro de gestión industrial - Regional Bogotá',
+        },
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Evaluador instruccional',
+          centro:
+            'Centro para la industria y la comunicación gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador instruccional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Metodólogo para formación virtual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -162,28 +278,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e ilustración',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Juan Daniel Polanco Muñoz',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Emilsen Alfonso Bautista',
+          cargo: 'Desarrollador Full-stack',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -191,22 +313,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta Álvarez',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
