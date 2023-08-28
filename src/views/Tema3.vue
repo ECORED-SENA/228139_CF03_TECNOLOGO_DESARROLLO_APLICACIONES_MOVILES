@@ -68,8 +68,8 @@
           caption Tabla 2  - Herramientas de gestión de requisitos |  Nota: Tomada de Sevilla (2021).
           thead.bg-amarillo
             tr.text-center
-              th #[em Requirements Management Tool]
-              th #[em Company]
+              th #[em Herramienta de gestión de requisitos]
+              th #[em Empresa]
               th URL
           tbody
             tr.bg-gris-claro
@@ -81,7 +81,7 @@
               th Visure Requirements
               td Visure Solutions
               th.ellipsis
-                a.mt-1(href="https://visuresolutions.com/es/herramienta-ingeniera-requisitos/"  target="_blank") visuresolutions.com/es/herramienta-ingeniera-requisitos/
+                a.mt-1(href="https://visuresolutions.com/"  target="_blank") visuresolutions.com
             tr.bg-gris-claro
               th Reqtify
               td Dassault Systèmes
