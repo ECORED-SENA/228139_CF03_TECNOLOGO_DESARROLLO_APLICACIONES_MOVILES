@@ -54,7 +54,7 @@
     Separador
 
     .titulo-segundo.mb-4(data-aos="fade-right")
-      #t_1_1.h4 1.1. Revisiones de requerimientos
+      #t_1_1.h2 1.1. Revisiones de requerimientos
 
     p.mt-4(data-aos="fade") Las revisiones de los requerimientos es un proceso manual que involucra la participación de personas de parte de la organización constructora del software así como la de los clientes. Por lo general, en este proceso se revisa el documento de requerimientos tratando de encontrar alguna anomalía y/u omisiones en la escritura de estos.
     .row.mt-4.mx-0
@@ -81,7 +81,7 @@
     Separador
 
     .titulo-segundo.mb-4(data-aos="fade-right")
-      #t_1_2.h4 1.2 Construcción de prototipos
+      #t_1_2.h2 1.2 Construcción de prototipos
 
     figure.mb-4
       .video
@@ -118,149 +118,125 @@
     #herramientasUX
       .row.mb-4.align-items-stretch
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
+          a(href="https://www.adobe.com/la/products/xd.html" target="_blank")
+            .tarjeta--boton.p-5
+              .row.justify-content-center.mb-3
+                .col-8
+                  figure
+                    img(src="@/assets/curso/temas/tema-1-4.svg", alt="Logo de la marca Adobe XD")
 
-          .tarjeta--boton.p-5
-            .row.justify-content-center.mb-3
-              .col-8
-                figure
-                  img(src="@/assets/curso/temas/tema-1-4.svg", alt="Logo de la marca Adobe XD")
-
-            h5.text-center Adobe XD
-            p.text-small.text-center.ellipsis.mb-0
-              a.mt-1(href="https://www.adobe.com/la/products/xd.html") www.adobe.com/la/products/xd.html
-
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0
-          .tarjeta--boton.p-5
-            .row.justify-content-center.mb-3
-              .col-8
-                figure
-                  img(src="@/assets/curso/temas/tema-1-5.svg", alt="Logo de la marca Marvel App")
-
-            h5.text-center Marvel App
-            p.text-small.text-center.ellipsis.mb-0
-              a.mt-1(href="www.marvelapp.com") www.marvelapp.com
+              h5.text-center Adobe XD
+              p.text-small.text-center.ellipsis.mb-0
+                a.mt-1(href="https://www.adobe.com/la/products/xd.html" target="_blank") www.adobe.com/la/products/xd.html
 
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
+          a(href="https://marvelapp.com" target="_blank")
+            .tarjeta--boton.p-5
+              .row.justify-content-center.mb-3
+                .col-8
+                  figure
+                    img(src="@/assets/curso/temas/tema-1-5.svg", alt="Logo de la marca Marvel App")
 
+              h5.text-center Marvel App
+              p.text-small.text-center.ellipsis.mb-0
+                a.mt-1(href="https://marvelapp.com" target="_blank") www.marvelapp.com
+
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0
+          a(href="https://www.moqups.com" target="_blank")
+            .tarjeta--boton.p-5
+              .row.justify-content-center.mb-3
+                .col-8
+                  figure.my-4
+                    img(src="@/assets/curso/temas/tema-1-6.svg", alt="Logo de la marca Moqups")
+
+              h5.text-center Moqups
+              p.text-small.text-center.ellipsis.mb-0
+                a.mt-1(href="https://www.moqups.com" target="_blank") www.moqups.com
+
+        .col-sm-6.col-lg-3.mb-4.mb-lg-0
+          a(href="https://www.lucidchart.com/pages/es" target="_blank")
+            .tarjeta--boton.p-5
+              .row.justify-content-center.mb-3
+                .col-10
+                  figure.my-5
+                    img(src="@/assets/curso/temas/tema-1-7.svg", alt="Logo de la marca LucidChart")
+
+              h5.text-center LucidChart
+              p.text-small.text-center.ellipsis.mb-0
+                a.mt-1(href="https://www.lucidchart.com/pages/es" target="_blank") www.lucidchart.com/pages/es
+
+    .row.align-items-stretch
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        a(href="https://www.proto.io" target="_blank")
           .tarjeta--boton.p-5
             .row.justify-content-center.mb-3
               .col-8
                 figure.my-4
-                  img(src="@/assets/curso/temas/tema-1-6.svg", alt="Logo de la marca Moqups")
+                  img(src="@/assets/curso/temas/tema-1-8.svg", alt="Logo de la marca Proto.io")
 
-            h5.text-center Moqups
+            h5.text-center Proto.io
             p.text-small.text-center.ellipsis.mb-0
-              a.mt-1(href="https://www.moqups.com") www.moqups.com
+              a.mt-1(href="https://www.proto.io" target="_blank") www.proto.io
 
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        a(href="https://www.balsamiq.com" target="_blank")
+          .tarjeta--boton.p-5
+            .row.justify-content-center.mb-3
+              .col-8
+                figure.my-4
+                  img(src="@/assets/curso/temas/tema-1-9.svg", alt="Logo de la marca Balsamiq")
 
+            h5.text-center Balsamiq
+            p.text-small.text-center.ellipsis.mb-0
+              a.mt-1(href="https://www.balsamiq.com" target="_blank") www.balsamiq.com
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        a(href="https://www.wirify.com" target="_blank")
+          .tarjeta--boton.p-5
+            .row.justify-content-center.mb-3
+              .col-8
+                figure.my-3
+                  img(src="@/assets/curso/temas/tema-1-10.svg", alt="Logo de la marca Wirify")
+
+            h5.text-center Wirify
+            p.text-small.text-center.ellipsis.mb-0
+              a.mt-1(href="https://www.wirify.com" target="_blank") www.wirify.com
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        a(href="https://www.pidoco.com/en" target="_blank")
           .tarjeta--boton.p-5
             .row.justify-content-center.mb-3
               .col-10
-                figure.my-5
-                  img(src="@/assets/curso/temas/tema-1-7.svg", alt="Logo de la marca LucidChart")
+                figure.my-3
+                  img(src="@/assets/curso/temas/tema-1-11.svg", alt="Logo de la marca Picodo")
 
-            h5.text-center LucidChart
+            h5.text-center Picodo
             p.text-small.text-center.ellipsis.mb-0
-              a.mt-1(href="https://www.lucidchart.com/pages/es") www.lucidchart.com/pages/es
-
-    .row.align-items-stretch
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-
-        .tarjeta--boton.p-5
-          .row.justify-content-center.mb-3
-            .col-8
-              figure.my-4
-                img(src="@/assets/curso/temas/tema-1-8.svg", alt="Logo de la marca Proto.io")
-
-          h5.text-center Proto.io
-          p.text-small.text-center.ellipsis.mb-0
-            a.mt-1(href="https://www.proto.io") www.proto.io
-
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.p-5
-          .row.justify-content-center.mb-3
-            .col-8
-              figure.my-4
-                img(src="@/assets/curso/temas/tema-1-9.svg", alt="Logo de la marca Balsamiq")
-
-          h5.text-center Balsamiq
-          p.text-small.text-center.ellipsis.mb-0
-            a.mt-1(href="https://www.balsamiq.com") www.balsamiq.com
-
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-
-        .tarjeta--boton.p-5
-          .row.justify-content-center.mb-3
-            .col-8
-              figure.my-3
-                img(src="@/assets/curso/temas/tema-1-10.svg", alt="Logo de la marca Wirify")
-
-          h5.text-center Wirify
-          p.text-small.text-center.ellipsis.mb-0
-            a.mt-1(href="https://www.wirify.com") www.wirify.com
-
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-
-        .tarjeta--boton.p-5
-          .row.justify-content-center.mb-3
-            .col-10
-              figure.my-3
-                img(src="@/assets/curso/temas/tema-1-11.svg", alt="Logo de la marca Picodo")
-
-          h5.text-center Picodo
-          p.text-small.text-center.ellipsis.mb-0
-            a.mt-1(href="https://www.pidoco.com/en") www.pidoco.com/en
+              a.mt-1(href="https://www.pidoco.com/en" target="_blank") www.pidoco.com/en
 
     Separador
 
     .titulo-segundo(data-aos="fade-right")
-      #t_1_3.h4 1.3. Generación de casos de prueba
+      #t_1_3.h2 1.3. Generación de casos de prueba
 
     p.mt-4(data-aos="fade") Desarrollar pruebas para los requerimientos permite evidenciar problemas antes de escribir cualquier línea de código. Normalmente si es complejo construir un caso de prueba para un requerimiento esto es un indicio de que el requerimiento puede ser difícil de implementar por lo que debería considerarse.
     .row.mt-5
       .col-4.d-none.d-md-block
         figure.mb-5.px-4
-          img(src="@/assets/curso/temas/tema-1-12.svg", alt="Texto que describa la imagen")
+          img(src="@/assets/curso/temas/tema-1-12.svg", alt="")
       .col-12.col-md-8
         p La validación de requisitos por casos de prueba requiere el desarrollo de cuatros fases: i) planeación de la prueba. Aquí se define la estrategia a utilizar, el alcance de la prueba a realizar y los tiempos requeridos para el desarrollo de la prueba; ii) diseño de los casos de prueba; iii) ejecución de los casos de prueba y iv) elaboración del informe final de la prueba donde se describen los aspectos más importantes y hallazgos de la ejecución de la prueba (Pantaleo, 2018).
-    p.mb-5 De otra parte, el diseño de un caso de prueba requiere: i) la construcción de un instrumento donde se debe detallar para cada requerimiento si existen precondiciones, es decir, si se requieren de actividades o valores previos para poder iniciar la ejecución del requerimiento; ii) identificar los pasos a seguir para la validación de un requisito y iii) los resultados esperados de la realización de cada paso.
+    p De otra parte, el diseño de un caso de prueba requiere: i) la construcción de un instrumento donde se debe detallar para cada requerimiento si existen precondiciones, es decir, si se requieren de actividades o valores previos para poder iniciar la ejecución del requerimiento; ii) identificar los pasos a seguir para la validación de un requisito y iii) los resultados esperados de la realización de cada paso.
+    p.mb-5 La siguiente es la estructura que lleva el instrumento de registro de caso de prueba:
     .row.mt-4
       .col-10.offset-1
-        //.titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-contenido
           h5 Figura 1
           span Formato de caso de prueba
 
-        table
-          caption Tabla 1 -  Formato de caso de prueba | Nota: Adaptado de Pantaleo (2018).
-          thead.bg-amarillo
-            tr.text-center
-              th(colspan="2") Formato de caso de prueba
-          tbody.bg-gris-claro
-            tr
-              th Objetivo del caso de prueba
-              th
-            tr
-              th Identificador
-              th
-            tr
-              th Nombre o identificador del requerimiento
-              th
-            tr
-              th Precondiciones
-              th
-            tr
-              th Pasos
-              th Resultados esperados
-            tr
-              th 1.
-              th 1.
-            tr
-              th 2.
-              th 2.
-            tr
-              th 3.
-              th 3.
+        figure
+          img(src="@/assets/curso/temas/formatoCasoPrueba.png" alt="magen del formato de caso de prueba que registra datos como: objetivos, identificador, requerimiento, pasos, resultados esperados.").m-auto
+          figcaption Nota. Adaptado de Pantaleo (2018)
 
 
 </template>

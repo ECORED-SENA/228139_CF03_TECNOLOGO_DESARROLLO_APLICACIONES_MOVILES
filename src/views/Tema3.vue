@@ -65,7 +65,7 @@
       .col-10.offset-1
 
         table
-          caption Tabla 2  - Herramientas de gestión de requisitos |  Nota: Tomada de Sevilla (2021).
+          caption Tabla 1  - Herramientas de gestión de requisitos |  Nota: Tomada de Sevilla (2021).
           thead.bg-amarillo
             tr.text-center
               th Herramienta de gestión de requisitos
@@ -81,7 +81,7 @@
               th Visure Requirements
               td Visure Solutions
               th.ellipsis
-                a.mt-1(href="https://visuresolutions.com/visure-requirements-system-requirements/"  target="_blank") visuresolutions.com
+                a.mt-1(href="https://visuresolutions.com/visure-requirements-system-requirements/"  target="_blank") https://visuresolutions.com/visure-requirements-system-requirements/
             tr.bg-gris-claro
               th Reqtify
               td Dassault Systèmes
