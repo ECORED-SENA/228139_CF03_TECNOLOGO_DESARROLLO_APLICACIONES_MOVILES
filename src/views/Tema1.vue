@@ -9,8 +9,8 @@
 
     .row
       .col-12.col-xl-8
-        p(data-aos="fade") La validación de los requerimientos busca ratificar que los requerimientos realmente están especificando lo que el cliente desea y necesita. Este proceso es muy importante, pues un error en un documento de requerimientos puede ocasionar el desgaste importante de muchos recursos si estos errores son detectados en etapas más avanzadas del proyecto como diseño, construcción o despliegue a producción. Los costos asociados para el arreglo de problemas en los requerimientos siempre van a ser menores que en otras etapas, ya que un error en los requerimientos se propaga en cascada en todas las fases subsiguientes del ciclo de vida.
-        p(data-aos="fade") Según Sommerville (2011), en el proceso de validación de requerimientos se llevan a cabo las siguientes verificaciones:
+        p(data-aos="fade-left") La validación de los requerimientos busca ratificar que los requerimientos realmente están especificando lo que el cliente desea y necesita. Este proceso es muy importante, pues un error en un documento de requerimientos puede ocasionar el desgaste importante de muchos recursos si estos errores son detectados en etapas más avanzadas del proyecto como diseño, construcción o despliegue a producción. Los costos asociados para el arreglo de problemas en los requerimientos siempre van a ser menores que en otras etapas, ya que un error en los requerimientos se propaga en cascada en todas las fases subsiguientes del ciclo de vida.
+        p(data-aos="fade-right") Según Sommerville (2011), en el proceso de validación de requerimientos se llevan a cabo las siguientes verificaciones:
         ul.lista-ul.mt-4.mb-4(data-aos="fade")
           li
             i.lista-ul__vineta(style="color: #ffa726;")
@@ -49,18 +49,18 @@
 
 
 
-    p Existen varias técnicas que pueden usarse para la validación de requisitos, como se puede revisar a continuación.
+    p(data-aos="flip-up") Existen varias técnicas que pueden usarse para la validación de requisitos, como se puede revisar a continuación.
 
     Separador
 
     .titulo-segundo.mb-4(data-aos="fade-right")
       #t_1_1.h2 1.1. Revisiones de requerimientos
 
-    p.mt-4(data-aos="fade") Las revisiones de los requerimientos es un proceso manual que involucra la participación de personas de parte de la organización constructora del software así como la de los clientes. Por lo general, en este proceso se revisa el documento de requerimientos tratando de encontrar alguna anomalía y/u omisiones en la escritura de estos.
+    p.mt-4(data-aos="fade-left") Las revisiones de los requerimientos es un proceso manual que involucra la participación de personas de parte de la organización constructora del software así como la de los clientes. Por lo general, en este proceso se revisa el documento de requerimientos tratando de encontrar alguna anomalía y/u omisiones en la escritura de estos.
     .row.mt-4.mx-0
-      .cajon.cajon--azul.p-4.mb-5.mb-lg-0.bg-naranja-claro
+      .cajon.cajon--azul.p-4.mb-5.mb-lg-0.bg-naranja-claro(data-aos="flip-up")
         p.p-4 Esta revisión se puede realizar de manera informal o formal (Sommerville, 2011). En una revisión informal, se requiere verificar, con tantos stakeholders como sea posible, el documento generado para recibir confirmación por parte de ellos de que lo escrito sí refleja su deseo. Esta revisión informal permite, de manera muy sencilla, detectar muchos problemas antes de establecer cualquier formalismo de revisión.
-    p.mt-4 En una revisión formal, el equipo de desarrollo debe introducir al cliente por cada uno de los requerimientos establecidos, y explicando cada una de sus implicaciones. El equipo encargado de la revisión deberá verificar cada requerimiento de forma individual y realizar el análisis de conjunto. Además, en el proceso de verificación debe resolverse cada una de las siguientes preguntas:
+    p.mt-4(data-aos="fade-right") En una revisión formal, el equipo de desarrollo debe introducir al cliente por cada uno de los requerimientos establecidos, y explicando cada una de sus implicaciones. El equipo encargado de la revisión deberá verificar cada requerimiento de forma individual y realizar el análisis de conjunto. Además, en el proceso de verificación debe resolverse cada una de las siguientes preguntas:
     .row.mt-4.mx-0
       .col-11.bg-verde-claro.mx-5.rounded
         .col-sm.mb-5.mb-sm-0.p-4.mt-3
@@ -88,7 +88,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/rVxFBN0q0tk" title="Construcción de prototipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Construcción de prototipos
 
-    p.mb-4 Por otra parte, el uso inadecuado de los prototipos también puede generar algunos riesgos, entre los que se encuentran:
+    p.mb-4(data-aos="fade-left") Por otra parte, el uso inadecuado de los prototipos también puede generar algunos riesgos, entre los que se encuentran:
 
     .row.mb-4.mx-0
       .col-11.bg-verde-claro.mx-5.rounded
@@ -104,7 +104,7 @@
               i.fas.fa-brain
               span Los prototipos pueden encarecer el producto.
 
-    p Para la fase de verificación de requisitos se recomienda el uso de prototipos de baja fidelidad (presentación de escenarios con maquetas estáticas) y de tipo exploratorio (prototipos no reutilizables, usados únicamente para la clarificación e identificación de requerimientos).
+    p(data-aos="fade-right") Para la fase de verificación de requisitos se recomienda el uso de prototipos de baja fidelidad (presentación de escenarios con maquetas estáticas) y de tipo exploratorio (prototipos no reutilizables, usados únicamente para la clarificación e identificación de requerimientos).
 
     .row.mt-5.align-items-center.mb-5
       .col-4.d-none.d-md-block
@@ -113,13 +113,13 @@
       .col-12.col-md-8
         p.mb-0 Aunque un prototipo podría ser una sencilla representación gráfica del sistema en papel o la representación de interfaces del sistema usando herramientas de ofimática, existen varias herramientas gratuitas y de pago que facilitan la construcción de prototipos, algunas de ellas solo requieren un registro de correo electrónico para acceder a sus funcionalidades directamente desde el navegador, y otras requieren la descarga e instalación en el equipo donde se planean construir los prototipos.
 
-    p.mb-5 Algunas herramientas recomendadas son las siguientes:
+    p.mb-5(data-aos="fade-right") Algunas herramientas recomendadas son las siguientes:
 
     #herramientasUX
       .row.mb-4.align-items-stretch
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
           a(href="https://www.adobe.com/la/products/xd.html" target="_blank")
-            .tarjeta--boton.p-5
+            .tarjeta--boton.p-5(data-aos="zoom-in")
               .row.justify-content-center.mb-3
                 .col-8
                   figure
@@ -131,7 +131,7 @@
 
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
           a(href="https://marvelapp.com" target="_blank")
-            .tarjeta--boton.p-5
+            .tarjeta--boton.p-5(data-aos="zoom-in")
               .row.justify-content-center.mb-3
                 .col-8
                   figure
@@ -143,7 +143,7 @@
 
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
           a(href="https://www.moqups.com" target="_blank")
-            .tarjeta--boton.p-5
+            .tarjeta--boton.p-5(data-aos="zoom-in")
               .row.justify-content-center.mb-3
                 .col-8
                   figure.my-4
@@ -155,7 +155,7 @@
 
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
           a(href="https://www.lucidchart.com/pages/es" target="_blank")
-            .tarjeta--boton.p-5
+            .tarjeta--boton.p-5(data-aos="zoom-in")
               .row.justify-content-center.mb-3
                 .col-10
                   figure.my-5
@@ -168,7 +168,7 @@
     .row.align-items-stretch
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         a(href="https://www.proto.io" target="_blank")
-          .tarjeta--boton.p-5
+          .tarjeta--boton.p-5(data-aos="zoom-in")
             .row.justify-content-center.mb-3
               .col-8
                 figure.my-4
@@ -180,7 +180,7 @@
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         a(href="https://www.balsamiq.com" target="_blank")
-          .tarjeta--boton.p-5
+          .tarjeta--boton.p-5(data-aos="zoom-in")
             .row.justify-content-center.mb-3
               .col-8
                 figure.my-4
@@ -192,7 +192,7 @@
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         a(href="https://www.wirify.com" target="_blank")
-          .tarjeta--boton.p-5
+          .tarjeta--boton.p-5(data-aos="zoom-in")
             .row.justify-content-center.mb-3
               .col-8
                 figure.my-3
@@ -204,7 +204,7 @@
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         a(href="https://www.pidoco.com/en" target="_blank")
-          .tarjeta--boton.p-5
+          .tarjeta--boton.p-5(data-aos="zoom-in")
             .row.justify-content-center.mb-3
               .col-10
                 figure.my-3
@@ -219,7 +219,7 @@
     .titulo-segundo(data-aos="fade-right")
       #t_1_3.h2 1.3. Generación de casos de prueba
 
-    p.mt-4(data-aos="fade") Desarrollar pruebas para los requerimientos permite evidenciar problemas antes de escribir cualquier línea de código. Normalmente si es complejo construir un caso de prueba para un requerimiento esto es un indicio de que el requerimiento puede ser difícil de implementar por lo que debería considerarse.
+    p.mt-4(data-aos="fade-left") Desarrollar pruebas para los requerimientos permite evidenciar problemas antes de escribir cualquier línea de código. Normalmente si es complejo construir un caso de prueba para un requerimiento esto es un indicio de que el requerimiento puede ser difícil de implementar por lo que debería considerarse.
     .row.mt-5
       .col-4.d-none.d-md-block
         figure.mb-5.px-4
@@ -234,7 +234,7 @@
           h5 Figura 1
           span Formato de caso de prueba
 
-        figure
+        figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/formatoCasoPrueba.png" alt="magen del formato de caso de prueba que registra datos como: objetivos, identificador, requerimiento, pasos, resultados esperados.").m-auto
           figcaption Nota. Adaptado de Pantaleo (2018)
 
