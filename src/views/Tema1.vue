@@ -43,7 +43,7 @@
               h4.mb-1 Infografía - Validación de requerimientos
               p.mb-0.text-small La validación de los requerimientos busca ratificar que los requerimientos realmente están especificando lo que el cliente desea y necesita.
             .col-sm-auto
-              a.boton.color-acento-botones(href="/downloads/Infografia_Validacionderequerimientos.pdf" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Infografia_Validacionderequerimientos.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
