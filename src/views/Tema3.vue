@@ -63,9 +63,11 @@
     p.mb-4 Las siguientes herramientas principalmente ayudan a documentar, analizar, buscar, priorizar y trazar los requisitos:
     .row
       .col-10.offset-1
-
+        .titulo-sexto.color-acento-botones
+          h5 Tabla 1
+          span Herramientas de gestión de requisitos
         table
-          caption Tabla 1  - Herramientas de gestión de requisitos |  Nota: Tomada de Sevilla (2021).
+          caption Nota: Tomada de Sevilla (2021).
           thead.bg-amarillo
             tr.text-center
               th Herramienta de gestión de requisitos
@@ -109,7 +111,7 @@
                 a.mt-1(href="https://www.ibm.com/support/pages/rational-requisitepro-713"  target="_blank") ibm.com/support/pages/rational-requisitepro-713
 
     .row.mt-5
-      p La norma ISO 24766 (Information Technology – Guide for Requirements Tool Capabilites) ayuda a seleccionar una herramienta adecuada de gestión de requisitos, pues la misma proporciona una orientación sobre los aportes de estas herramientas.
+      p La norma ISO 24766 (#[em Information Technology] - #[em Guide for Requirements Tool Capabilites]) ayuda a seleccionar una herramienta adecuada de gestión de requisitos, pues la misma proporciona una orientación sobre los aportes de estas herramientas.
       p.mt-4 Aparte de las herramientas nombradas anteriormente, existen otras entre las que se encuentran las libres y comerciales; a continuación, se indican las más conocidas.
 
     TabsB.mt-5
@@ -124,17 +126,17 @@
                   .row
                     .col-12.text-center
                       figure.justify-content-center
-                        img(src="@/assets/curso/temas/tema-3-4.svg", alt="Texto que describa la imagen").w-25.m-auto
+                        img(src="@/assets/curso/temas/tema-3-4.svg", alt="Logo de la marca IBM Rational DOORS").w-25.m-auto
                 td
                   .row
                     .col-10.offset-1.justify-content-center
                       figure
-                        img(src="@/assets/curso/temas/tema-3-5.svg", alt="Texto que describa la imagen").w-50.m-auto
+                        img(src="@/assets/curso/temas/tema-3-5.svg", alt="Logo de la marca IBM Requisite Pro").w-50.m-auto
                 td
                   .row
                     .col-12.text-center
                       figure.justify-content-center
-                        img(src="@/assets/curso/temas/tema-3-6.svg", alt="Texto que describa la imagen").w-50.m-auto
+                        img(src="@/assets/curso/temas/tema-3-6.svg", alt="Logo de la marca Jama Software").w-50.m-auto
               tr.bg-gris-claro
                 td.text-center.px-4 Aplicación de gestión de requisitos para optimizar la comunicación, la colaboración y la verificación de requisitos.
                 td.text-center.px-4 Herramienta de administración de requisitos que permite crear y compartir basado en documentos potenciados.

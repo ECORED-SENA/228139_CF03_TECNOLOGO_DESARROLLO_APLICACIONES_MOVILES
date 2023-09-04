@@ -62,8 +62,8 @@
         p.p-4 Esta revisión se puede realizar de manera informal o formal (Sommerville, 2011). En una revisión informal, se requiere verificar, con tantos stakeholders como sea posible, el documento generado para recibir confirmación por parte de ellos de que lo escrito sí refleja su deseo. Esta revisión informal permite, de manera muy sencilla, detectar muchos problemas antes de establecer cualquier formalismo de revisión.
     p.mt-4(data-aos="fade-right") En una revisión formal, el equipo de desarrollo debe introducir al cliente por cada uno de los requerimientos establecidos, y explicando cada una de sus implicaciones. El equipo encargado de la revisión deberá verificar cada requerimiento de forma individual y realizar el análisis de conjunto. Además, en el proceso de verificación debe resolverse cada una de las siguientes preguntas:
     .row.mt-4.mx-0
-      .col-11.bg-verde-claro.mx-5.rounded
-        .col-sm.mb-5.mb-sm-0.p-4.mt-3
+      .col-12.col-lg-11.bg-verde-claro.rounded
+        .p-4
           ul.lista-ul--color
             li.mt-2
               i.fas.fa-brain
