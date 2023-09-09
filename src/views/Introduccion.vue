@@ -15,8 +15,8 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video.
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/HEl0GrMFq88?si=vYUuM7k_uSET54z4" title="Validación de requisitos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video.Validación de requisitos
 
 
 </template>
