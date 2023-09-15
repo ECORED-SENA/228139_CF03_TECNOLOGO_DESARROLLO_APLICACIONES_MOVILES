@@ -11,7 +11,7 @@
       img(src="@/assets/curso/temas/tema-2-1.svg", alt="")
 
     p(data-aos="fade") Los requerimientos de un proyecto inevitablemente sufren variaciones en el tiempo y puede ser por varios motivos entre los que se podrían destacar cambios en las políticas gubernamentales, sociales, económicas o, sencillamente, por solicitudes de los clientes.
-    p(data-aos="fade") Según Sommerville (2011), dependiendo de la perspectiva evolutiva de los requerimientos estos se pueden clasificar en dos grupos:
+    p(data-aos="fade") Según Sommerville (2011), dependiendo de la perspectiva evolutiva de los requerimientos, estos se pueden clasificar en dos grupos:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mt-4
       .row(titulo="Requerimientos duraderos:")

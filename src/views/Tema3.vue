@@ -10,14 +10,14 @@
     .cajon.color-primario.p-4.mb-5
       .row.align-items-center
         .col-12.col-xl-9
-          p.mb-4 En la actualidad, existe una variedad de herramientas para ser utilizadas específicamente en la gestión de requisitos, la utilización de estas ayuda a mejorar la calidad del desarrollo de un proyecto y permite un mayor control en el mantenimiento previniendo posibles errores durante la ejecución del proyecto (Sevilla, 2021).
+          p.mb-4 En la actualidad, existe una variedad de herramientas para ser utilizadas específicamente en la gestión de requisitos, la utilización de estas ayuda a mejorar la calidad del desarrollo de un proyecto y permite un mayor control en el mantenimiento, previniendo posibles errores durante la ejecución del proyecto (Sevilla, 2021).
           p Las herramientas de gestión de requisitos variarán según las metodologías de proyecto y los objetivos, la manera en la cual se aborden los requisitos también dependerá según la metodología. Por ejemplo, algunos equipos usan otra palabra para requisitos como “historias de usuarios”, “requisitos de productos” o, simplemente, “características”.
 
         .col-xl-3.d-none.d-lg-block
           figure.px-4
             img(src="@/assets/curso/temas/tema-3-1.svg", alt="")
 
-    p.mb-5 Existen herramientas básicas de requerimientos y herramientas complejas, a reglón seguido se explican:
+    p.mb-5 Existen herramientas básicas de requerimientos y herramientas complejas, las cuales se explican a continuación:
 
     .row.justify-content-center.mb-5
       .col-xl-4.mb-4.mb-lg-0
@@ -38,7 +38,7 @@
                 img(src='@/assets/curso/temas/tema-3-3.svg', style="max-width: 120px").m-auto
 
           h4.text-center Herramientas complejas
-          p.lh-md.text-center Para una planificación de gestión de requisitos más compleja, se necesita un sistema de software completo para administrar las relaciones entre los requisitos, analizar el impacto de cualquier cambio, administrar las aprobaciones y demás aspectos.
+          p.lh-md.text-center Para una planificación de gestión de requisitos más compleja, se necesita un sistema de <i>software</i> completo para administrar las relaciones entre los requisitos, analizar el impacto de cualquier cambio, administrar las aprobaciones y demás aspectos.
 
 
     p.mb-5 De acuerdo con el mismo autor, las herramientas de gestión de requisitos se caracterizan por las siguientes propiedades:

@@ -56,11 +56,11 @@
     .titulo-segundo.mb-4(data-aos="fade-right")
       #t_1_1.h2 1.1. Revisiones de requerimientos
 
-    p.mt-4(data-aos="fade-left") Las revisiones de los requerimientos es un proceso manual que involucra la participación de personas de parte de la organización constructora del software así como la de los clientes. Por lo general, en este proceso se revisa el documento de requerimientos tratando de encontrar alguna anomalía y/u omisiones en la escritura de estos.
+    p.mt-4(data-aos="fade-left") Las revisiones de los requerimientos es un proceso manual que involucra la participación de personas de parte de la organización constructora del <i>software</i> así como la de los clientes. Por lo general, en este proceso se revisa el documento de requerimientos tratando de encontrar alguna anomalía y/u omisiones en la escritura de estos.
     .row.mt-4.mx-0
       .cajon.cajon--azul.p-4.mb-5.mb-lg-0.bg-naranja-claro(data-aos="flip-up")
-        p.p-4 Esta revisión se puede realizar de manera informal o formal (Sommerville, 2011). En una revisión informal, se requiere verificar, con tantos stakeholders como sea posible, el documento generado para recibir confirmación por parte de ellos de que lo escrito sí refleja su deseo. Esta revisión informal permite, de manera muy sencilla, detectar muchos problemas antes de establecer cualquier formalismo de revisión.
-    p.mt-4(data-aos="fade-right") En una revisión formal, el equipo de desarrollo debe introducir al cliente por cada uno de los requerimientos establecidos, y explicando cada una de sus implicaciones. El equipo encargado de la revisión deberá verificar cada requerimiento de forma individual y realizar el análisis de conjunto. Además, en el proceso de verificación debe resolverse cada una de las siguientes preguntas:
+        p.p-4 Esta revisión se puede realizar de manera informal o formal (Sommerville, 2011). En una revisión informal, se requiere verificar, con tantos <i>stakeholders</i> como sea posible, el documento generado para recibir confirmación por parte de ellos de que lo escrito sí refleja su deseo. Esta revisión informal permite, de manera muy sencilla, detectar muchos problemas antes de establecer cualquier formalismo de revisión.
+    p.mt-4(data-aos="fade-right") En una revisión formal, el equipo de desarrollo debe introducir al cliente por cada uno de los requerimientos establecidos y explicando cada una de sus implicaciones. El equipo encargado de la revisión deberá verificar cada requerimiento de forma individual y realizar el análisis de conjunto. Además, en el proceso de verificación debe resolverse cada una de las siguientes preguntas:
     .row.mt-4.mx-0
       .col-12.col-lg-11.bg-verde-claro.rounded
         .p-4
@@ -82,6 +82,8 @@
 
     .titulo-segundo.mb-4(data-aos="fade-right")
       #t_1_2.h2 1.2 Construcción de prototipos
+
+    p.mb-4(data-aos="fade-left") Haga un chequeo del siguiente video para adentrarse en las generalidades y aspectos clave de la construcción de prototipos:
 
     figure.mb-4
       .video
@@ -219,7 +221,7 @@
     .titulo-segundo(data-aos="fade-right")
       #t_1_3.h2 1.3. Generación de casos de prueba
 
-    p.mt-4(data-aos="fade-left") Desarrollar pruebas para los requerimientos permite evidenciar problemas antes de escribir cualquier línea de código. Normalmente si es complejo construir un caso de prueba para un requerimiento esto es un indicio de que el requerimiento puede ser difícil de implementar por lo que debería considerarse.
+    p.mt-4(data-aos="fade-left") Desarrollar pruebas para los requerimientos permite evidenciar problemas antes de escribir cualquier línea de código. Normalmente, si es complejo construir un caso de prueba para un requerimiento esto es un indicio de que el requerimiento, puede ser difícil de implementar, por lo que debería considerarse.
     .row.mt-5
       .col-4.d-none.d-md-block
         figure.mb-5.px-4
