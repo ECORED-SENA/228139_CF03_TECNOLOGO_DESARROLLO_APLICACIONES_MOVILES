@@ -159,30 +159,30 @@ export default {
         'Las pruebas de concepto ofrecen conclusiones para diseñar un producto o servicio mejor. Además, permiten evaluar el éxito de estas ideas de productos nuevos antes de su comercialización.',
     },
     {
-      termino: 'Stakeholders',
+      termino: '<i>Stakeholders</i>',
       significado:
-        'Son todas aquellas personas interesadas en la construcción del software que de una u otra forma se relacionan con las actividades, se afecta por estas actividades o toma parte en las decisiones de la empresa o negocio sobre el cual se está haciendo el levantamiento de requerimientos.',
+        'Son todas aquellas personas interesadas en la construcción del <i>software</i> que de una u otra forma se relacionan con las actividades, se afecta por estas actividades o toma parte en las decisiones de la empresa o negocio sobre el cual se está haciendo el levantamiento de requerimientos.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Ballesteros, E., Tellez, F. R., y Medina, J. (2020). Software requirements: prototyping, legacy software, and document analysis. Ingeniería y Desarrollo, 37(2), 327–345.',
+        'Ballesteros, E., Tellez, F. R., y Medina, J. (2020). <i>Software requirements: prototyping, legacy software, and document analysis</i>. Ingeniería y Desarrollo, 37(2), 327–345.',
       link: 'https://doi.org/10.14482/inde.37.2.1053',
     },
     {
       referencia:
-        'Easterbrook, S, Lutz, R, et al. (1998). Experiences using lightweight formal methods for requirements modeling. IEE Trans. On Software Engineering, 24(1), 4-14. (ch 10).',
+        '<i>Easterbrook, S, Lutz, R, et al. (1998). Experiences using lightweight formal methods for requirements modeling. IEE Trans. On Software Engineering</i>, 24(1), 4-14. (ch 10).',
       link: '',
     },
     {
       referencia:
-        'Pantaleo, G., y Rinaudo L. (2018). Ingeniería de Software. Alfaomega.',
+        'Pantaleo, G., y Rinaudo L. (2018). Ingeniería de <i>Software</i>. Alfaomega.',
       link: '',
     },
     {
       referencia:
-        'Penzenstadler, B. (s. f.). Requirements Engineering. CSU Long Beach.',
+        'Penzenstadler, B. (s. f.). <i>Requirements Engineering. CSU Long Beach.</i>',
       link: 'https://bit.ly/3rtBKXN ',
     },
     {
@@ -197,7 +197,7 @@ export default {
     },
     {
       referencia:
-        'Sommerville I. (2011). Ingeniería del software. Addison-Wesley.',
+        'Sommerville I. (2011). Ingeniería del <i>software</i>. Addison-Wesley.',
       link: '',
     },
     {

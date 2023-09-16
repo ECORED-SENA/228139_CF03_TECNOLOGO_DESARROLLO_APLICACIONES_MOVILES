@@ -103,7 +103,7 @@
               th Gatherspace
               td Gatherspace
               th.ellipsis
-                a.mt-1(href="https://www.gatherspace.com/project-management-software-solutions/"  target="_blank") gatherspace.com/project-management-software-solutions/
+                a.mt-1(href="https://www.capterra.co/software/78755/gatherspace-com"  target="_blank") gatherspace.com/project-management-software-solutions/
             tr.bg-gris-claro
               th RequisitePro
               td IBM Rational
