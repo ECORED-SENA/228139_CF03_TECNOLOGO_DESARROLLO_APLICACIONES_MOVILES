@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Esquema general de las temáticas de este componente formativo. Tema principal: Validación de requisitos. Temas integradores: Procesos de validación, Requerimientos duraderos y volátiles, Herramientas para la gestión de requisitos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
